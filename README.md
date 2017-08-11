@@ -7,11 +7,13 @@
 ```
 
 ### clean git
+* .init 후 .git 제거
 ```
 ./setup clean
 ```
 
 ### run gtest
+* 테스트 실행
 ```
 make check
 ```
