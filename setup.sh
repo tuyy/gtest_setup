@@ -8,7 +8,7 @@ then
 elif [ $1 = 'clean' ]
 then
     mkdir -p src/ include/
-    rm -rf .git* test/*
+    rm -rf .git* test/SampleTest.cpp
     make clean
 else
     echo 'ERROR:invalid args. Usage: ./setup [None or clean]'
