@@ -1,5 +1,6 @@
 CUR_DIR   = $(shell pwd)
-INC_DIR = $(CUR_DIR)/include
+INC_DIR = $(CUR_DIR)/include \
+          $(CUR_DIR)/externals/boost_1_65_0/
 INC_DIR_OPTION = $(addprefix -I, $(INC_DIR))
 CFLAGS = -std=c++11 -g -Wall -Werror -Wextra $(INC_DIR_OPTION) -isystem $(GTEST_DIR)/include #-pthread
 BUILD_DIR = $(abspath $(CUR_DIR)/build)

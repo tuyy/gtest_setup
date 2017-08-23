@@ -1,2 +1,4 @@
 *.o
+*.swp
 build
+externals/boost_1_65_0/*
